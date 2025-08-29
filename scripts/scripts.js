@@ -1,4 +1,4 @@
-// heart btn functionalities
+// heart btn functionalities here
 const btns = document.getElementsByClassName("heart-btn");
 for (const btn of btns) {
   btn.addEventListener("click", function () {
@@ -9,7 +9,7 @@ for (const btn of btns) {
   });
 }
 
-//call button functionalities
+//call button functionalities here
 
 document
   .getElementById("card-container")
@@ -61,7 +61,7 @@ document
     }
   });
 
-//   clear button functionalities
+//   clear button functionalities here
 
 document.getElementById("clear-btn").addEventListener("click", function () {
   const callHistoryContainer = document.getElementById(
