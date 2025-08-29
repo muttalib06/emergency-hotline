@@ -75,8 +75,7 @@ document
   .addEventListener("click", async function (e) {
     if (e.target.className.includes("card-copy-btn")) {
       const copyBtn = e.target;
-      const hotlineNumber =
-        e.target.parentNode.parentNode.children[3].innerText;
+      const hotlineNumber = copyBtn.parentNode.parentNode.children[3].innerText;
       const copyNumber = document.getElementById("copy-number");
       const copyNumberCount = Number(copyNumber.innerText);
       const increaseCopyNumber = copyNumberCount + 1;
